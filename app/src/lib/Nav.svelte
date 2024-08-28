@@ -1,9 +1,7 @@
-<div class="p-4 flex flex-row md:flex-col mt-0 gap-2">
-    <a href="/"><h1 class="text-2xl font-bold whitespace-nowrap">Jack Sendall</h1></a>
-    
-    <ul class="flex flex-row md:flex-col gap-2">
-        <li class="leading-8"><a href="/">About</a></li>
-        <li class="leading-8"><a href="/photos">Photos</a></li>
-        <li class="leading-8"><a href="https://portfolio.jack.sbs/">Portfolio</a></li>
-    </ul>
+<div class="p-4 flex flex-row md:flex-col mt-0 gap-2 items-center md:items-start">
+    <a href="/"><p class="text-2xl font-bold whitespace-nowrap">Jack Sendall</p></a>
+    <a class="text-black" href="/">About</a>
+    <a class="text-black" href="/photos">Photos</a>
+    <a class="text-black" href="https://portfolio.jack.sbs/">Portfolio</a>
+
 </div>
