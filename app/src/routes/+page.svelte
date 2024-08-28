@@ -9,8 +9,7 @@ import avatar from "../lib/images/avatar.jpg"
 <div class="prose">
 
     <p class="">
-        👋🏼 I currently work on <a href="https://leantoken.org/" class="">LEAN</a>, which I created and lead day-to-day. I previously led all Consumer engineering at EntryPoint, including building EP, EP Babies, and more.
-
+        👋🏼 I currently work on <a href="https://leantoken.org/" class="">LEAN</a>, which I created and lead day-to-day.
     </p>
 
     <p class="">
