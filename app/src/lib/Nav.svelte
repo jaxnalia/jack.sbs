@@ -1,4 +1,4 @@
-<div class="p-4 flex flex-row md:flex-col mt-0 md:mt-16 gap-2">
+<div class="p-4 flex flex-row md:flex-col mt-0 gap-2">
     <a href="/"><h1 class="text-2xl font-bold whitespace-nowrap">Jack Sendall</h1></a>
     
     <ul class="flex flex-row md:flex-col gap-2">

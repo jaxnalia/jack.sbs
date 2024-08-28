@@ -2,7 +2,7 @@
 import avatar from "../lib/images/avatar.jpg"
 </script>
 
-<div class="p-4 flex flex-col w-full mt-0 md:mt-16 max-w-screen-sm mx-auto">
+<div class="p-4 flex flex-col w-full mt-0 max-w-screen-sm mx-auto">
     <div class="flex flex-row justify-center mb-8"> 
         <img src={avatar} alt="jack" class="w-80">
     </div>
@@ -14,7 +14,7 @@ import avatar from "../lib/images/avatar.jpg"
     </p>
 
     <p class="">
-        Find me at <a href="https://x.com/MadG4ins">@MadG4ins</a>
+        Follow me at <a href="https://x.com/MadG4ins">@MadG4ins</a> on X.
     </p>
 
 </div>
