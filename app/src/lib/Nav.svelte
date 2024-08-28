@@ -4,6 +4,6 @@
     <ul class="flex flex-row md:flex-col gap-2">
         <li class="leading-8"><a href="/">About</a></li>
         <li class="leading-8"><a href="/photos">Photos</a></li>
-        <li class="leading-8"><a href="portfolio.jack.sbs">Portfolio</a></li>
+        <li class="leading-8"><a href="https://portfolio.jack.sbs/">Portfolio</a></li>
     </ul>
 </div>
