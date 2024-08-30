@@ -2,22 +2,22 @@
 import avatar from "../lib/images/avatar.jpg"
 </script>
 
-<div class="p-4 flex flex-col w-full mt-0 max-w-screen-sm mx-auto">
-    <div class="flex flex-row justify-center mb-8"> 
-        <img src={avatar} alt="jack" class="w-80">
+<div class="pb-32 flex flex-col w-full max-w-screen-sm mx-auto prose dark:prose-invert">
+    <div class="flex flex-row justify-center"> 
+        <img src={avatar} alt="jack" class="w-96 mt-0">
     </div>
-<div class="prose">
+    <div class="">
 
-    <p class="">
-        👋🏼 I currently work on <a href="https://leantoken.org/" class="">LEAN</a>, which I created and lead day-to-day.
-    </p>
+        <p class="">
+            🤝 I currently work on <a href="https://leantoken.org/" class="">LEAN</a>, a cryptocurrency which I created and lead day-to-day. I previously worked on <a href="http://millionstrading.com">Millions Trading</a>, an educational trading show where I livestream my trading sessions.
+        </p>
 
-    <p class="">
-        Follow me at <a href="https://x.com/MadG4ins">@MadG4ins</a> on X.
-    </p>
+        <p class="">
+            Follow me at <a href="https://x.com/MadG4ins">@MadG4ins</a> on X.
+        </p>
 
-</div>
-    
+    </div>
+        
     
 
 
