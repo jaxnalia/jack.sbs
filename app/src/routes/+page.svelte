@@ -9,7 +9,7 @@ import avatar from "../lib/images/avatar.jpg"
     <div class="">
 
         <p class="">
-            🤝 I currently work on <a href="https://leantoken.org/" class="">LEAN</a>, a cryptocurrency which I created and lead day-to-day. I previously worked on <a href="http://millionstrading.com">Millions Trading</a>, an educational trading show where I livestream my trading sessions.
+            🤝 I currently work on <a href="https://leantoken.org/" class="">LEAN</a>, a memecoin which I created and lead day-to-day. I previously worked on <a href="http://millionstrading.com">Millions Trading</a>, an educational trading show where I livestream my trading sessions.
         </p>
 
         <p class="">
