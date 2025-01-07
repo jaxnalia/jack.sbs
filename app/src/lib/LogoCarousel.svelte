@@ -56,7 +56,7 @@
         content: '';
         position: absolute;
         top: 0;
-        width: 150px;
+        width: 15%;
         height: 100%;
         z-index: 2;
         pointer-events: none;
