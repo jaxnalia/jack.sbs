@@ -2,6 +2,7 @@
 // @ts-nocheck
 import avatar from "../lib/images/avatar.jpg"
 import Timeline from '../lib/Timeline.svelte';
+import LogoCarousel from "$lib/LogoCarousel.svelte";
 
 const timelineItems = [
   {
@@ -49,6 +50,11 @@ const timelineItems = [
         </p>
 
     </div>
+    <h1 class="mb-8 mt-8 font-bold">What I work with</h1>
+    <LogoCarousel />
+  
+
+  
 
     <h1 class="mb-0 mt-8 font-bold">History</h1>
     <Timeline items={timelineItems} />
