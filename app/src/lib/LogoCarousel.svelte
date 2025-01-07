@@ -80,7 +80,7 @@
     
       .carousel-content {
         display: flex;
-        gap: 1.5rem;
+        gap: 3rem;
         will-change: transform;
       }
     
@@ -92,8 +92,8 @@
       }
     
       .logo-item :global(svg) {
-        width: 2.5rem;
-        height: 2.5rem;
+        width: 2.75rem;
+        height: 2.75rem;
       }
     
       .logo-name {

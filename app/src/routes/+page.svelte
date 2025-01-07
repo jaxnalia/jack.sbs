@@ -40,7 +40,7 @@ const timelineItems = [
         <img src={avatar} alt="jack" class="w-96 mt-0">
     </div>
     <div class="">
-        <h1 class="mb-0 mt-8 font-bold">Hi,</h1>
+        <h1 class="mb-0 mt-8 font-bold">About me</h1>
         <p class="">
             🤝 I currently work on <a href="https://leantoken.org/" class="">LEAN</a>, a meme coin which I created and lead day-to-day. I previously worked on <a href="http://millionstrading.com">Millions Trading</a>, an educational trading show where I livestream my trading sessions.
         </p>
