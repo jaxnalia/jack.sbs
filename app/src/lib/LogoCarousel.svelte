@@ -2,7 +2,8 @@
     import { logos } from './logos';
     import { onMount } from 'svelte';
     
-    let scrollContainer: HTMLDivElement;
+    let carouselContent: HTMLDivElement;
+    let position = 0;
     
     // Create 3 sets of logos for seamless scrolling
     function getLogos() {
@@ -10,33 +11,34 @@
     }
     
     onMount(() => {
-      const scroll = () => {
-        if (scrollContainer) {
-          if (scrollContainer.scrollLeft >= scrollContainer.scrollWidth / 3) {
-            scrollContainer.style.scrollBehavior = 'auto';
-            scrollContainer.scrollLeft = 0;
-            setTimeout(() => {
-              scrollContainer.style.scrollBehavior = 'smooth';
-            }, 1);
-          } else {
-            scrollContainer.scrollLeft += 1;
+      const animate = () => {
+        if (carouselContent) {
+          position -= 1;
+          const maxScroll = carouselContent.scrollWidth / 3;
+          
+          if (Math.abs(position) >= maxScroll) {
+            position = 0;
           }
+          
+          carouselContent.style.transform = `translateX(${position}px)`;
         }
       };
     
-      const interval = setInterval(scroll, 30);
+      const interval = setInterval(animate, 30);
       return () => clearInterval(interval);
     });
     </script>
     
     <div class="carousel-container bg-gray-900 rounded-xl border-gray-900 border-2">
-      <div class="carousel" bind:this={scrollContainer}>
-        {#each getLogos() as logo}
-          <div class="logo-item">
-            {@html logo.svg}
-            <span class="logo-name font-semibold">{logo.name}</span>
-          </div>
-        {/each}
+      <div class="carousel">
+        <div class="carousel-content" bind:this={carouselContent}>
+          {#each getLogos() as logo}
+            <div class="logo-item">
+              {@html logo.svg}
+              <span class="logo-name font-semibold">{logo.name}</span>
+            </div>
+          {/each}
+        </div>
       </div>
     </div>
     
@@ -45,7 +47,7 @@
         width: 100%;
         overflow: hidden;
         /* background: black; */
-        padding: 1.5rem 0;
+        padding: 0.5rem 0;
         position: relative;
       }
     
@@ -54,33 +56,32 @@
         content: '';
         position: absolute;
         top: 0;
-        width: 100px;
+        width: 150px;
         height: 100%;
         z-index: 2;
+        pointer-events: none;
       }
     
       .carousel-container::before {
         left: 0;
-        background: linear-gradient(to right, #000000, transparent);
+        background: linear-gradient(to right, black, transparent);
       }
     
       .carousel-container::after {
         right: 0;
-        background: linear-gradient(to left, #000000, transparent);
+        background: linear-gradient(to left, black, transparent);
       }
     
       .carousel {
-        display: flex;
-        gap: 2rem;
-        
-        overflow-x: scroll;
-        scrollbar-width: none;
-        -ms-overflow-style: none;
-        scroll-behavior: smooth;
+        position: relative;
+        padding: 1rem;
+        overflow: hidden;
       }
     
-      .carousel::-webkit-scrollbar {
-        display: none;
+      .carousel-content {
+        display: flex;
+        gap: 2rem;
+        will-change: transform;
       }
     
       .logo-item {
