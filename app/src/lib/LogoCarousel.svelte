@@ -29,7 +29,7 @@
     });
     </script>
     
-    <div class="carousel-container bg-gray-900 rounded-xl border-gray-900 border-2">
+    <div class="carousel-container">
       <div class="carousel">
         <div class="carousel-content" bind:this={carouselContent}>
           {#each getLogos() as logo}
