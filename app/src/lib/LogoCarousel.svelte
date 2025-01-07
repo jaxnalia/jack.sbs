@@ -80,14 +80,14 @@
     
       .carousel-content {
         display: flex;
-        gap: 2rem;
+        gap: 1.5rem;
         will-change: transform;
       }
     
       .logo-item {
         display: flex;
         align-items: center;
-        gap: 1rem;
+        gap: 0.5rem;
         flex: 0 0 auto;
       }
     
