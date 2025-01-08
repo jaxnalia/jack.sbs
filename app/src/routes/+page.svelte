@@ -17,7 +17,7 @@ const timelineItems = [
     url: "http://millionstrading.com",
     date: "January, 2024",
     title: "Founder",
-    description: "Millions Trading was an educational trading show where I livestreamed my trading sessions."
+    description: "An educational trading show where I livestreamed my trading sessions. The application was built using Svelte, has Stripe payments integrated and uses modern best practices for SEO."
   },
   {
     link: "leantoken.org",
