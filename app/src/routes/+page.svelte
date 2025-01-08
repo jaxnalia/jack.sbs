@@ -10,10 +10,10 @@ const timelineItems = [
     url: "https://robinsons-road-ready.vercel.app",
     date: "September, 2024",
     title: "Full-Stack Web Developer",
-    description: "Website for a driving school in Norwich. Includes a custom CMS, booking system, and other information."
+    description: "Website for a driving school based in Norwich. Includes a custom CMS, booking system, and other information."
   },
   {
-    link: "Millions Trading",
+    link: "MillionsTrading.com",
     url: "http://millionstrading.com",
     date: "January, 2024",
     title: "Founder",
@@ -24,7 +24,7 @@ const timelineItems = [
     url: "https://leantoken.org",
     date: "November, 2023",
     title: "Founder",
-    description: "LEAN Token was an original meme coin that I created which included an on-chain liquidity staking protocol."
+    description: "A meme coin that I created which included an on-chain liquidity staking protocol."
   },
   {
     
