@@ -6,25 +6,25 @@ import LogoCarousel from "$lib/LogoCarousel.svelte";
 
 const timelineItems = [
   {
-    link: "RobinsonsRoadReady.com",
-    url: "https://google.com",
-    date: "2024",
-    title: "Major Milestone",
-    description: "Achieved significant progress in project development and implementation."
+    link: "Robinsons Road Ready",
+    url: "https://robinsons-road-ready.vercel.app",
+    date: "September, 2024",
+    title: "Full-Stack Web Developer",
+    description: "Website for a driving school in Norwich. Includes a custom CMS, booking system, and other information."
   },
-//   {
-//     link: "HEX.com",
-//     url: "https://google.com",
-//     date: "2023 - 2024",
-//     title: "Project Launch",
-//     description: "Successfully launched the initial version of our flagship product."
-//   },
+  {
+    link: "Millions Trading",
+    url: "http://millionstrading.com",
+    date: "January, 2024",
+    title: "Founder",
+    description: "Millions Trading was an educational trading show where I livestreamed my trading sessions."
+  },
   {
     link: "leantoken.org",
     url: "https://leantoken.org",
-    date: "2023",
+    date: "November, 2023",
     title: "Founder",
-    description: "'LEAN Token' was an original meme coin I created that included an on-chain liquidity staking protocol."
+    description: "LEAN Token was an original meme coin that I created which included an on-chain liquidity staking protocol."
   },
   {
     
@@ -50,7 +50,7 @@ const timelineItems = [
         </p>
 
     </div>
-    <h1 class="mb-8 mt-8 font-bold">What I work with</h1>
+    <h1 class="mb-8 mt-8 font-bold">Tools I work with</h1>
     <LogoCarousel />
   
 
