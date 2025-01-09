@@ -80,7 +80,7 @@
     
       .carousel-content {
         display: flex;
-        gap: 3rem;
+        gap: 2rem;
         will-change: transform;
       }
     
