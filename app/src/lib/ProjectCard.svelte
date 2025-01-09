@@ -21,7 +21,7 @@ const externalLinkIcon = `<svg class="w-5 h-5 ml-2 inline text-white" viewBox="0
 </script>
 
 <div class="relative">
-  <div class="absolute inset-0 bg-white/10 rounded-lg blur-xl"></div>
+  <div class="absolute inset-0 bg-white/15 rounded-lg blur-2xl"></div>
   <a 
     href={project.link}
     class="block w-full aspect-video rounded-xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden relative group"
