@@ -24,7 +24,7 @@ const timelineItems = [
     url: "https://leantoken.org",
     date: "November, 2023",
     title: "Founder",
-    description: "A meme coin that I created which included an on-chain liquidity staking protocol."
+    description: "An ERC20 token that I created which included an on-chain liquidity staking protocol."
   },
   {
     
