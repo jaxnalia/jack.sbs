@@ -29,7 +29,7 @@ const externalLinkIcon = `<svg class="w-5 h-5 ml-2 hidden group-hover:inline tex
     rel="noopener noreferrer"
   >
     <div class="absolute inset-0 bg-cover bg-center transition-transform duration-300 group-hover:scale-105" style="background-image: url({project.image})"></div>
-    <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent h-2/3 md:h-2/5">
+    <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent h-full md:h-2/3">
       <div class="p-6 h-full flex flex-col justify-end">
         <div class="flex items-center mb-2">
           <h2 class="text-2xl font-bold text-white group-hover:underline inline-flex items-center">
@@ -39,7 +39,7 @@ const externalLinkIcon = `<svg class="w-5 h-5 ml-2 hidden group-hover:inline tex
         </div>
         <p class="text-gray-200 mb-4">{project.description}</p>
         <div class="flex flex-wrap gap-2 items-center">
-          <span class="text-sm text-gray-300 mr-2">Made with:</span>
+          <span class="text-sm text-gray-300 mr-2 max-sm:hidden">Made with:</span>
           {#each project.technologies as tech}
             <div class="flex items-center gap-1 bg-white bg-opacity-10 backdrop-blur-sm px-2 py-1 rounded">
               <span class="w-4 text-center">{@html techLogos[tech.name]}</span>
