@@ -1,25 +1,41 @@
 <script lang="ts">
     import ProjectCard from "$lib/ProjectCard.svelte";
+    // import webSolutions from "$lib/images/web-solutions.png"
     
     const projects = [
       {
-        title: "Task Manager",
-        description: "A full-featured task management application with real-time updates and collaborative features.",
-        link: "https://example.com/task-manager",
-        image: "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+        title: "Web Solutions Business",
+        description: "Website for a web solutions business, showcasing services and client testimonials.",
+        link: "https://web-solutions-tau.vercel.app/",
+        image: "web-solutions.png",
         technologies: [
-          { name: "React", logo: "react" },
-          { name: "TypeScript", logo: "typescript" }
+          { name: "Svelte", logo: "svelte" },
+          { name: "TypeScript", logo: "typescript" },
+          { name: "PostgreSQL", logo: "postgresql" }
         ]
       },
       {
-        title: "Weather Dashboard",
-        description: "Real-time weather monitoring dashboard with interactive maps and forecast visualization.",
-        link: "https://example.com/weather",
-        image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+        title: "Robinsons Road Ready",
+        description: "Website for a driving school based in Norwich. Includes a custom CMS, booking system, and other information.",
+        link: "https://robinsons-road-ready.vercel.app/",
+        image: "robinsons.png",
         technologies: [
-          { name: "JavaScript", logo: "javascript" },
-          { name: "Svelte", logo: "svelte" }
+          { name: "Svelte", logo: "svelte" },
+          { name: "TypeScript", logo: "typescript" },
+          { name: "PostgreSQL", logo: "postgresql" }
+        ]
+      },
+      {
+        title: "Millions Trading",
+        description: "Website for an online trading course with Discord user authentication and Stripe payment integration.",
+        link: "https://robinsons-road-ready.vercel.app/",
+        image: "millionstrading.png",
+        technologies: [
+          { name: "Svelte", logo: "svelte" },
+          { name: "TypeScript", logo: "typescript" },
+          { name: "PostgreSQL", logo: "postgresql" },
+          { name: "Stripe", logo: "stripe" },
+          { name: "n8n", logo: "n8n" }
         ]
       },
       {
