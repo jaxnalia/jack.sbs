@@ -41,15 +41,15 @@ const timelineItems = [
     </div>
     <div class="">
         <h1 class="mb-0 mt-8 font-bold">About me</h1>
-        <p class="">
+        <p class="text-xl">
             🤝 I currently work on <a href="https://leantoken.org/" class="">LEAN</a>, a meme coin which I created and lead day-to-day. I previously worked on <a href="http://millionstrading.com">Millions Trading</a>, an educational trading show where I livestream my trading sessions.
         </p>
 
-        <p class="">
+        <p class="text-xl">
             Follow me <a href="https://x.com/bigjaxcapital">@bigjaxcapital</a> on X.
         </p>
 
-        <p class="">
+        <p class="text-xl">
           Business enquiries: <a href="mailto:hello@jack.sbs">hello@jack.sbs</a>
         </p>
 
