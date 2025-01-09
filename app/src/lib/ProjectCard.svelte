@@ -21,10 +21,10 @@ const externalLinkIcon = `<svg class="w-5 h-5 ml-2 inline text-white" viewBox="0
 </script>
 
 <div class="relative">
-  <div class="absolute inset-0 bg-white/15 rounded-lg blur-2xl"></div>
+  <div class="absolute inset-0 bg-white/10 rounded-lg blur-xl"></div>
   <a 
     href={project.link}
-    class="block w-full aspect-video rounded-xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden relative group"
+    class="block w-full max-sm:aspect-square aspect-video rounded-xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden relative group"
     target="_blank"
     rel="noopener noreferrer"
   >
@@ -37,13 +37,13 @@ const externalLinkIcon = `<svg class="w-5 h-5 ml-2 inline text-white" viewBox="0
             {@html externalLinkIcon}
           </h2>
         </div>
-        <p class="text-gray-200 mb-4">{project.description}</p>
+        <p class=" text-gray-200 mb-4">{project.description}</p>
         <div class="flex flex-wrap gap-2 items-center">
           <span class="text-sm text-gray-300 mr-2 max-sm:hidden">Made with:</span>
           {#each project.technologies as tech}
             <div class="flex items-center gap-1 bg-white bg-opacity-10 backdrop-blur-sm px-2 py-1 rounded">
-              <span class="w-4 text-center">{@html techLogos[tech.name]}</span>
-              <span class="text-sm text-white">{tech.name}</span>
+              <span class=" w-4 text-center">{@html techLogos[tech.name]}</span>
+              <span class=" text-sm text-white">{tech.name}</span>
             </div>
           {/each}
         </div>

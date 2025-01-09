@@ -52,9 +52,9 @@
   </script>
   
   <main class="min-h-screen px-4">
-    <div class="max-w-4xl mx-auto space-y-6">
+    <div class="max-w-4xl mx-auto space-y-8">
       <h1 class="font-bold text-4xl text-white mb-8">Projects</h1>
-      <div class="space-y-6">
+      <div class="space-y-8">
         {#each projects as project}
           <ProjectCard {project} />
         {/each}
