@@ -37,7 +37,7 @@ const timelineItems = [
 
 <div class="pb-32 flex flex-col w-full max-w-screen-sm mx-auto prose dark:prose-invert">
     <div class="flex flex-row justify-center"> 
-        <img src={avatar} alt="jack" class="w-96 mt-0">
+        <img src={avatar} alt="jack" class="w-96 mt-0 rounded-full">
     </div>
     <div class="">
         <h1 class="mb-0 mt-8 font-bold">About me</h1>
@@ -46,7 +46,11 @@ const timelineItems = [
         </p>
 
         <p class="">
-            Follow me at <a href="https://x.com/bigjaxcapital">@bigjaxcapital</a> on X.
+            Follow me <a href="https://x.com/bigjaxcapital">@bigjaxcapital</a> on X.
+        </p>
+
+        <p class="">
+          Business enquiries: <a href="mailto:hello@jack.sbs">hello@jack.sbs</a>
         </p>
 
     </div>
