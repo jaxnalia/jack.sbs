@@ -42,7 +42,7 @@ const timelineItems = [
     <div class="">
         <h1 class="mb-0 mt-8 font-bold">About me</h1>
         <p class="text-xl">
-            🤝 I currently work on <a href="https://leantoken.org/" class="">LEAN</a>, a meme coin which I created and lead day-to-day. I previously worked on <a href="http://millionstrading.com">Millions Trading</a>, an educational trading show where I livestream my trading sessions.
+          Hi, 🤝 I'm a seasoned web developer with a passion for leveraging cutting-edge technologies to deliver innovative solutions. <br><br> Lately, I've been focused on harnessing Large Language Models (LLMs) to streamline the development and rapid deployment of business applications and dynamic front ends.
         </p>
 
         <p class="text-xl">
