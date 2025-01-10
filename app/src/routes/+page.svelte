@@ -3,6 +3,7 @@
 import avatar from "../lib/images/avatar.jpg"
 import Timeline from '../lib/Timeline.svelte';
 import LogoCarousel from "$lib/LogoCarousel.svelte";
+import Footer from "$lib/Footer.svelte";
 
 const timelineItems = [
   {
@@ -35,7 +36,7 @@ const timelineItems = [
 ];
 </script>
 
-<div class="pb-32 flex flex-col w-full max-w-screen-sm mx-auto prose dark:prose-invert">
+<div class="pb-32 flex flex-col w-full max-w-screen-sm mx-auto prose prose-invert">
     <div class="flex flex-row justify-center"> 
         <img src={avatar} alt="jack" class="w-96 mt-0 rounded-full">
     </div>
@@ -62,8 +63,8 @@ const timelineItems = [
 
     <h1 class="mb-0 mt-8 font-bold">History</h1>
     <Timeline items={timelineItems} />
-    
-
+    <h1 class="mb-0 mt-8 font-bold">Let's Cook</h1>
+    <Footer />
 
 </div>
 

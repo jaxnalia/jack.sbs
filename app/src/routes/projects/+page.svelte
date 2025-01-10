@@ -1,6 +1,6 @@
 <script lang="ts">
     import ProjectCard from "$lib/ProjectCard.svelte";
-    // import webSolutions from "$lib/images/web-solutions.png"
+    import Footer from "$lib/Footer.svelte";
     
     const projects = [
       {
@@ -62,7 +62,7 @@
     ];
   </script>
   
-  <main class="min-h-screen px-4">
+  <main class="px-4">
     <div class="max-w-4xl mx-auto space-y-8">
       <h1 class="font-bold text-4xl text-white mb-8">Projects</h1>
       <div class="space-y-8">
@@ -70,6 +70,14 @@
           <ProjectCard {project} />
         {/each}
       </div>
+      
+      <div class="max-w-screen-sm mx-auto prose prose-invert py-20">
+        <h1 class="mb-0 mt-8 font-bold">Let's Cook</h1>
+        <Footer />
+      </div>
     </div>
+    
   </main>
+  
+ 
   
