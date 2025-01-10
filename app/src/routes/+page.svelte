@@ -42,7 +42,7 @@ const timelineItems = [
     <div class="">
         <h1 class="mb-0 mt-8 font-bold">About me</h1>
         <p class="text-xl">
-          Hi, 🤝 I'm a seasoned web developer with a passion for leveraging cutting-edge technologies to deliver innovative solutions. <br><br> Lately, I've been working on harnessing Large Language Models (LLMs) to streamline the development and rapid deployment of business applications and dynamic front ends.
+          Hi, 🤝 I'm a seasoned web developer with a passion for leveraging cutting-edge technologies to deliver innovative solutions. <br><br> My most recent projects involve harnessing Large Language Models (LLMs) to streamline the rapid development and deployment of business applications and dynamic front ends.
         </p>
 
         <p class="text-xl">
