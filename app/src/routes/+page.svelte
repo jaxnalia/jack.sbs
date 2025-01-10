@@ -36,7 +36,7 @@ const timelineItems = [
 ];
 </script>
 
-<div class="pb-32 flex flex-col w-full max-w-screen-sm mx-auto prose prose-invert">
+<div class="flex flex-col w-full max-w-screen-sm mx-auto prose prose-invert">
     <div class="flex flex-row justify-center"> 
         <img src={avatar} alt="jack" class="w-96 mt-0 rounded-full">
     </div>
@@ -48,6 +48,9 @@ const timelineItems = [
 
         <p class="text-xl">
             Follow me <a href="https://x.com/bigjaxcapital">@bigjaxcapital</a> on X.
+        </p>
+        <p class="text-xl">
+            Check out <a href="https://github.com/jaxnalia">my repositories</a> on Github.
         </p>
 
         <p class="text-xl">
@@ -63,7 +66,7 @@ const timelineItems = [
 
     <h1 class="mb-0 mt-8 font-bold">History</h1>
     <Timeline items={timelineItems} />
-    <h1 class="mb-0 mt-8 font-bold">Let's Cook</h1>
+    <h1 class="mb-0 mt-8 font-bold">Let's Cook.</h1>
     <Footer />
 
 </div>

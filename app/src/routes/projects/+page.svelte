@@ -72,7 +72,7 @@
       </div>
       
       <div class="max-w-screen-sm mx-auto prose prose-invert py-20">
-        <h1 class="mb-0 mt-8 font-bold">Let's Cook</h1>
+        <h1 class="mb-0 mt-8 font-bold">Let's Cook.</h1>
         <Footer />
       </div>
     </div>
