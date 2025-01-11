@@ -28,6 +28,13 @@ const timelineItems = [
     description: "An ERC20 token that I created which included an on-chain liquidity staking protocol."
   },
   {
+    link: "Swaine Adeney Brigg",
+    url: "https://swaine.london/",
+    date: "January, 2020",
+    title: "Frontend Developer",
+    description: "Adding features to an already built page built on headless Shopify CMS. Minor website modifications."
+  },
+  {
     
     date: "2019 - Present",
     title: "Open Source",
