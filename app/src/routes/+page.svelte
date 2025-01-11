@@ -30,7 +30,7 @@ const timelineItems = [
   {
     link: "Swaine Adeney Brigg",
     url: "https://swaine.london/",
-    date: "January, 2020",
+    date: "September, 2020",
     title: "Frontend Developer",
     description: "Adding features to a pre-existing website built on headless Shopify CMS. Minor website modifications."
   },
