@@ -32,7 +32,7 @@ const timelineItems = [
     url: "https://swaine.london/",
     date: "January, 2020",
     title: "Frontend Developer",
-    description: "Adding features to an already built page built on headless Shopify CMS. Minor website modifications."
+    description: "Adding features to a pre-existing website built on headless Shopify CMS. Minor website modifications."
   },
   {
     
