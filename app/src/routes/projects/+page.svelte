@@ -62,7 +62,7 @@
     ];
   </script>
   
-  <main class="px-4">
+  <main class="">
     <div class="max-w-4xl mx-auto space-y-8">
       <h1 class="font-bold text-4xl text-white mb-8">Projects</h1>
       <div class="space-y-8">
