@@ -45,7 +45,7 @@ const timelineItems = [
 
 <div class="flex flex-col w-full max-w-screen-sm mx-auto prose prose-invert">
     <div class="flex flex-row justify-center"> 
-        <img src={avatar} alt="jack" class="w-96 mt-0 rounded-full">
+        <img src={avatar} alt="jack" class="w-96 mt-0 rounded-xl">
     </div>
     <div class="">
         <h1 class="mb-0 mt-8 font-bold">About me</h1>
