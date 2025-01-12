@@ -65,7 +65,7 @@ const timelineItems = [
         </p>
 
     </div>
-    <h1 class="mb-8 mt-8 font-bold">Tools I work with</h1>
+    <h1 class="mb-8 mt-8 font-bold">Tools I use</h1>
     <LogoCarousel />
   
 
