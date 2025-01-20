@@ -63,14 +63,9 @@ const timelineItems = [
         <p class="text-xl">
           Business enquiries: <a href="mailto:hello@jack.sbs">hello@jack.sbs</a>
         </p>
-
     </div>
     <h1 class="mb-8 mt-8 font-bold">Tools I use</h1>
     <LogoCarousel />
-  
-
-  
-
     <h1 class="mb-0 mt-8 font-bold">History</h1>
     <Timeline items={timelineItems} />
     <h1 class="mb-0 mt-8 font-bold">Let's Cook.</h1>

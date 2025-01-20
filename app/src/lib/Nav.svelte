@@ -3,7 +3,7 @@
 </script>
 
 <div 
-  class="p-4 list-none flex flex-row md:flex-col mt-0 gap-4 md:gap-2 items-center md:items-start text-white" 
+  class="p-4 list-none flex flex-row tablet:flex-col mt-0 gap-4 tablet:gap-2 items-center tablet:items-start text-white" 
   style="position: sticky; top: 4rem;"
 >
   <a href="/" aria-label="Home">

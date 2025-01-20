@@ -10,8 +10,13 @@ export default {
 				sans: [...fontFamily.sans],
 				poppins: ['"Poppins"', "sans-serif"],
         inter: ['"Inter"', "sans-serif"]
-			}
-    }
+			},
+      screens: {
+        tablet: '864px',
+        // => @media (min-width: 864px) { ... }
+      }
+    },
+    
   },
 //@ts-ignore
   plugins: [require("@tailwindcss/typography")],
