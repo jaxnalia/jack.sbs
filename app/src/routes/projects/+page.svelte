@@ -4,9 +4,9 @@
     
     const projects = [
       {
-        title: "Web Shop Boilerplate",
+        title: "Stripe Ecommerce Boilerplate",
         description: "Template for an e-commerce website with a shopping cart, product pages, and checkout functionality.",
-        link: "https://ecommerce-kit-liard.vercel.app/",
+        link: "https://ecommerce-boilerplate-omega.vercel.app/",
         image: "ecommerce.png",
         technologies: [
           { name: "Svelte", logo: "svelte" },
