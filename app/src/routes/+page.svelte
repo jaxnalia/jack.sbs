@@ -50,9 +50,11 @@ const timelineItems = [
     <div class="">
         <h1 class="mb-0 mt-8 font-bold">About me</h1>
         <p class="text-xl">
-          Hi, 🤝 I'm a seasoned web developer with a passion for leveraging cutting-edge technologies to deliver innovative solutions. <br><br> My most recent projects involve using <a href="https://en.wikipedia.org/wiki/Large_language_model">Large Language Models</a> (LLMs) to streamline the rapid development and deployment of business applications and dynamic front ends.
+          Hi, 🤝 I'm a seasoned developer with a passion for solving problems, shipping fast, and building stuff that makes money.
         </p>
-
+        <!-- <p class="text-xl">
+        <a href="/projects">Stuff I've made</a>
+        </p> -->
         <p class="text-xl">
             Follow me <a href="https://x.com/bigjaxcapital">@bigjaxcapital</a> on X.
         </p>
