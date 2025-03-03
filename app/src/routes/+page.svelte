@@ -25,7 +25,7 @@ const timelineItems = [
     url: "https://leantoken.org",
     date: "November, 2023",
     title: "Founder",
-    description: "An ERC20 token that I created which included an on-chain liquidity staking protocol."
+    description: "An ERC20 token that I created which included a liquidity staking pool."
   },
   {
     link: "Swaine Adeney Brigg",
