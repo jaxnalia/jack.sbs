@@ -55,6 +55,24 @@ const timelineItems = [
         <!-- <p class="text-xl">
         <a href="/projects">Stuff I've made</a>
         </p> -->
+        <div class="flex gap-4">
+          <a class="w-full" href="/projects">
+            <button
+            type="submit"
+            class="w-full bg-black group hover:bg-white border border-gray-400 py-3 px-6 rounded-lg">
+            <h3 class="m-0 text-white font-bold group-hover:text-black">See My Work</h3>
+          </button>
+        </a>
+        <a class="w-full" href="#contact">
+          <button
+          type="submit"
+          class="w-full bg-black group hover:bg-white border border-gray-400 py-3 px-6 rounded-lg">
+          <h3 class="m-0 text-white font-bold group-hover:text-black">Contact Me</h3>
+        </button>
+        </a> 
+        
+        </div>
+        
         <p class="text-xl">
             Follow me <a href="https://x.com/bigjaxcapital">@bigjaxcapital</a> on X.
         </p>
@@ -70,7 +88,7 @@ const timelineItems = [
     <LogoCarousel />
     <h1 class="mb-0 mt-8 font-bold">History</h1>
     <Timeline items={timelineItems} />
-    <h1 class="mb-0 mt-8 font-bold">Let's Cook.</h1>
+    <h1 id="contact" class="mb-0 mt-8 font-bold">Let's Cook.</h1>
     <Footer />
 
 </div>

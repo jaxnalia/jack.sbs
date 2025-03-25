@@ -16,6 +16,19 @@
         ]
       },
       {
+        title: "Millions Trading",
+        description: "Website for an online trading course with Discord user authentication and Stripe payment integration.",
+        link: "https://millionstrading.com/",
+        image: "millionstrading.png",
+        technologies: [
+          { name: "Svelte", logo: "svelte" },
+          { name: "TypeScript", logo: "typescript" },
+          { name: "PostgreSQL", logo: "postgresql" },
+          { name: "Stripe", logo: "stripe" },
+          { name: "n8n", logo: "n8n" }
+        ]
+      },
+      {
         title: "Stripe Ecommerce Boilerplate",
         description: "Template for an e-commerce website with a shopping cart, product pages, and checkout functionality.",
         link: "https://ecommerce-boilerplate-omega.vercel.app/",
@@ -26,6 +39,7 @@
           { name: "Stripe", logo: "stripe" }
         ]
       },
+      
       {
         title: "Web Solutions Business",
         description: "Website for a web solutions business, showcasing services and client testimonials.",
@@ -49,19 +63,6 @@
         ]
       },
       {
-        title: "Millions Trading",
-        description: "Website for an online trading course with Discord user authentication and Stripe payment integration.",
-        link: "https://millionstrading.com/",
-        image: "millionstrading.png",
-        technologies: [
-          { name: "Svelte", logo: "svelte" },
-          { name: "TypeScript", logo: "typescript" },
-          { name: "PostgreSQL", logo: "postgresql" },
-          { name: "Stripe", logo: "stripe" },
-          { name: "n8n", logo: "n8n" }
-        ]
-      },
-      {
         title: "Personal Website",
         description: "Portfolio showcasing projects and experience with a modern, responsive design.",
         link: "https://jack.sbs",
@@ -77,7 +78,7 @@
   
   <main class="">
     <div class="max-w-4xl mx-auto space-y-8">
-      <h1 class="font-bold text-4xl text-white mb-8">Projects</h1>
+      <h1 class="font-bold text-4xl text-white mb-8">Featured Projects</h1>
       <div class="space-y-8">
         {#each projects as project}
           <ProjectCard {project} />
