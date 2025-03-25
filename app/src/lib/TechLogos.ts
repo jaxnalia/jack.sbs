@@ -32,30 +32,14 @@ export const techLogos = {
 		c-1.4,0.9-2.3,2.2-2.6,3.8s0.1,3.3,1,4.6c1.6,2.3,4.4,3.3,7.1,2.6c0.6-0.2,1.2-0.4,1.7-0.7l10.5-6.7c1.7-1.1,3.6-1.9,5.6-2.5
 		c8.9-2.3,18.2,1.2,23.4,8.7c3.2,4.4,4.4,9.9,3.5,15.3c-0.9,5.2-4.1,9.9-8.6,12.7l-27.5,17.5C44.8,102.5,42.9,103.3,40.9,103.9"/>
 	</svg>`,
-	Solidity: `<svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1300px" height="1300px"
-	 viewBox="0 0 1300 1300" enable-background="new 0 0 1300 1300" xml:space="preserve">
-	<title>Vector 1</title>
-	<desc>Created with Sketch.</desc>
-	<g id="Page-1" sketch:type="MSPage">
-		<g id="solidity" transform="translate(402.000000, 118.000000)" sketch:type="MSLayerGroup">
-			<g id="Group" sketch:type="MSShapeGroup">
-				<path id="Shape" opacity="0.45" enable-background="new    " d="M371.772,135.308L241.068,367.61H-20.158l130.614-232.302
-					H371.772"/>
-				<path id="Shape_1_" opacity="0.6" enable-background="new    " d="M241.068,367.61h261.318L371.772,135.308H110.456
-					L241.068,367.61z"/>
-				<path id="Shape_2_" opacity="0.8" enable-background="new    " d="M110.456,599.822L241.068,367.61L110.456,135.308
-					L-20.158,367.61L110.456,599.822z"/>
-				<path id="Shape_3_" opacity="0.45" enable-background="new    " d="M111.721,948.275l130.704-232.303h261.318L373.038,948.275
-					H111.721"/>
-				<path id="Shape_4_" opacity="0.6" enable-background="new    " d="M242.424,715.973H-18.893l130.613,232.303h261.317
-					L242.424,715.973z"/>
-				<path id="Shape_5_" opacity="0.8" enable-background="new    " d="M373.038,483.761L242.424,715.973l130.614,232.303
-					l130.704-232.303L373.038,483.761z"/>
-			</g>
-		</g>
-	</g>
-	</svg>`,
+	Solidity: `<svg viewBox="0 0 160 160" fill="#2B247C" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.8" d="M50 44.3013L25 1L0 44.3013L25 87.6025L50 44.3013Z" />
+<path opacity="0.45" d="M50 44.3091L75 1.00781L25 1.00781L0 44.3091H50Z" />
+<path opacity="0.6" d="M75 1.00781L25 1.00781L50 44.3091H100L75 1.00781Z" />
+<path opacity="0.8" d="M50 115.699L75 159L100 115.699L75 72.3975L50 115.699Z" />
+<path opacity="0.45" d="M50 115.691L25 158.993H75L100 115.691L50 115.691Z" />
+<path opacity="0.6" d="M25 158.993H75L50 115.691L0 115.691L25 158.993Z" />
+</svg>`,
 	n8n: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
 	<g id="nav-menu-_x28_V1_x29_" transform="matrix(1, 0, 0, 1, -51.215103, 33.219498)">
 		<g id="nav-menu-_x28_v1_x29_" transform="translate(-120.000000, -116.000000)">

@@ -24,7 +24,8 @@
           Let's Cook
         </h1> -->
         <p class="text-gray-300 text-xl mb-8">
-          Ready to bring your idea to life? Let's talk about your project.<br><br> Email me at <a href="mailto:hello@jack.sbs">hello@jack.sbs</a> or fill in the form.
+          Ready to bring your idea to life? Let's talk about your project.<br><br> <!-- Email me at <a href="mailto:hello@jack.sbs">hello@jack.sbs</a> or fill in the form. -->
+          Send me a message at <a href="http://t.me/bigjaxcapital">t.me/bigjaxcapital</a> or fill in the form below.
         </p>
         
       </div>

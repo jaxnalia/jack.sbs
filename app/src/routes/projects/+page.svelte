@@ -4,6 +4,18 @@
     
     const projects = [
       {
+        title: "LEAN Staking App",
+        description: "Liquidity staking protocol for an ERC20 token that mints 'Incentive Tokens' as a reward.",
+        link: "https://app.leantoken.org/",
+        image: "leantoken.png",
+        technologies: [
+          { name: "Solidity", logo: "solidity" },
+          { name: "Svelte", logo: "svelte" },
+          { name: "TypeScript", logo: "typescript" }
+          
+        ]
+      },
+      {
         title: "Stripe Ecommerce Boilerplate",
         description: "Template for an e-commerce website with a shopping cart, product pages, and checkout functionality.",
         link: "https://ecommerce-boilerplate-omega.vercel.app/",
@@ -56,7 +68,8 @@
         image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
         technologies: [
           { name: "Svelte", logo: "svelte" },
-          { name: "TypeScript", logo: "typescript" }
+          { name: "TypeScript", logo: "typescript" },
+          { name: "PostgreSQL", logo: "postgresql" }
         ]
       }
     ];

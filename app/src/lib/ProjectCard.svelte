@@ -42,7 +42,7 @@ const externalLinkIcon = `<svg class="w-5 h-5 ml-2 inline text-white" viewBox="0
           <span class="text-sm text-gray-300 mr-2 max-sm:hidden">Made with:</span>
           {#each project.technologies as tech}
             <div class="flex items-center gap-1 bg-white bg-opacity-10 backdrop-blur-sm px-2 py-1 rounded">
-              <span class=" w-4 text-center">{@html techLogos[tech.name]}</span>
+              <span class=" w-4 h-4 text-center">{@html techLogos[tech.name]}</span>
               <span class=" text-sm text-white">{tech.name}</span>
             </div>
           {/each}

@@ -25,7 +25,7 @@ const timelineItems = [
     url: "https://leantoken.org",
     date: "November, 2023",
     title: "Founder",
-    description: "An ERC20 token that I created which included a liquidity staking pool."
+    description: "An ERC20 token I launched on PulseChain which features a liquidity staking protocol."
   },
   {
     link: "Swaine Adeney Brigg",
@@ -62,9 +62,9 @@ const timelineItems = [
             Check out <a href="https://github.com/jaxnalia">my repositories</a> on Github.
         </p>
 
-        <p class="text-xl">
+        <!-- <p class="text-xl">
           Business enquiries: <a href="mailto:hello@jack.sbs">hello@jack.sbs</a>
-        </p>
+        </p> -->
     </div>
     <h1 class="mb-8 mt-8 font-bold">Tools I use</h1>
     <LogoCarousel />
