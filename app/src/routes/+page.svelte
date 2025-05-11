@@ -48,7 +48,7 @@ const timelineItems = [
         <img src={avatar} alt="jack" class="w-96 mt-0 rounded-xl">
     </div>
     <div class="">
-        <h1 class="mb-0 mt-8 font-bold">About me</h1>
+        <h1 data-nosnippet class="mb-0 mt-8 font-bold">About me</h1>
         <p class="text-xl">
           Hi, 🤝 I'm a seasoned developer with a passion for solving problems, shipping fast, and building stuff that makes money.
         </p>
@@ -84,9 +84,9 @@ const timelineItems = [
           Business enquiries: <a href="mailto:hello@jack.sbs">hello@jack.sbs</a>
         </p> -->
     </div>
-    <h1 class="mb-8 mt-8 font-bold">Tools I use</h1>
+    <h1 data-nosnippet class="mb-8 mt-8 font-bold">Tools I use</h1>
     <LogoCarousel />
-    <h1 class="mb-0 mt-8 font-bold">History</h1>
+    <h1 data-nosnippet class="mb-0 mt-8 font-bold">History</h1>
     <Timeline items={timelineItems} />
     <h1 id="contact" class="mb-0 mt-8 font-bold">Let's Cook.</h1>
     <Footer />
