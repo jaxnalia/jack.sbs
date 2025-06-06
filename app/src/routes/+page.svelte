@@ -18,7 +18,7 @@ const timelineItems = [
     url: "http://millionstrading.com",
     date: "January, 2024",
     title: "Founder",
-    description: "An educational trading show where I livestreamed my trading sessions. The application was built using Svelte, has Stripe payments integrated and uses modern best practices for SEO."
+    description: "An educational trading stream where I broadcast my trading sessions. The application was built using Svelte, has Stripe payments integrated and uses modern best practices for SEO."
   },
   {
     link: "leantoken.org",
@@ -32,7 +32,7 @@ const timelineItems = [
     url: "https://swaine.london/",
     date: "September, 2020",
     title: "Frontend Developer",
-    description: "Adding features to a pre-existing website built on headless Shopify CMS. Minor website modifications."
+    description: "Minor website modifications, adding features to a pre-existing website built on headless Shopify CMS."
   },
   {
     
@@ -50,7 +50,7 @@ const timelineItems = [
     <div class="">
         <h1 data-nosnippet class="mb-0 mt-8 font-bold">About me</h1>
         <p class="text-xl">
-          Hi, 🤝 I'm a seasoned developer with a passion for solving problems, shipping fast, and building stuff that makes money.
+          Hi, 🤝 I'm a seasoned developer with a passion for solving problems and shipping fast.
         </p>
         <!-- <p class="text-xl">
         <a href="/projects">Stuff I've made</a>
