@@ -7,7 +7,7 @@
   style="position: sticky; top: 4rem;"
 >
   <a href="/" aria-label="Home">
-    <p class="text-2xl font-bold whitespace-nowrap">Jack Sendall</p>
+    <p class="text-2xl font-bold whitespace-nowrap">BigJax</p>
   </a>
   <a href="/">
     <li aria-current={$page.url.pathname === '/' ? 'page' : undefined} class="text-xl hover:bg-white hover:text-black rounded-sm px-1">
