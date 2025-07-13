@@ -88,7 +88,7 @@ const timelineItems = [
     <LogoCarousel /> -->
     <h1 data-nosnippet class="mb-0 mt-8 font-bold">History</h1>
     <Timeline items={timelineItems} />
-    <h1 id="contact" class="mb-0 mt-8 font-bold">Let's Cook.</h1>
+    <h1 id="contact" class="mb-12 mt-8 font-bold">Contact</h1>
     <Footer />
 
 </div>
