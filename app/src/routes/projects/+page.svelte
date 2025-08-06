@@ -4,6 +4,18 @@
     
     const projects = [
       {
+        title: "Schizodio",
+        description: "Decentralized application for minting an NFT collection.",
+        link: "https://schizodio.xyz/",
+        image: "schizodio.xyz_.png",
+        technologies: [
+          // { name: "Solidity", logo: "solidity" },
+          { name: "Svelte", logo: "svelte" },
+          { name: "TypeScript", logo: "typescript" }
+          
+        ]
+      },
+      {
         title: "LEAN Staking App",
         description: "Liquidity staking protocol for an ERC20 token that mints 'Incentive Tokens' as a reward.",
         link: "https://app.leantoken.org/",
@@ -40,17 +52,17 @@
         ]
       },
       
-      {
-        title: "Web Solutions Business",
-        description: "Website for a web solutions business, showcasing services and client testimonials.",
-        link: "https://web-solutions-tau.vercel.app/",
-        image: "web-solutions.png",
-        technologies: [
-          { name: "Svelte", logo: "svelte" },
-          { name: "TypeScript", logo: "typescript" },
-          { name: "PostgreSQL", logo: "postgresql" }
-        ]
-      },
+      // {
+      //   title: "Web Solutions Business",
+      //   description: "Website for a web solutions business, showcasing services and client testimonials.",
+      //   link: "https://web-solutions-tau.vercel.app/",
+      //   image: "web-solutions.png",
+      //   technologies: [
+      //     { name: "Svelte", logo: "svelte" },
+      //     { name: "TypeScript", logo: "typescript" },
+      //     { name: "PostgreSQL", logo: "postgresql" }
+      //   ]
+      // },
       // {
       //   title: "Robinson's Road Ready",
       //   description: "Website for a driving school based in Norwich. Includes a custom CMS, booking system, and other information.",
