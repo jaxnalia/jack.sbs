@@ -59,14 +59,14 @@ const timelineItems = [
           <a class="w-full" href="/projects">
             <button
             type="submit"
-            class="w-full bg-black group hover:bg-white border border-gray-400 py-3 px-6 rounded-lg">
+            class="w-full bg-black group hover:bg-white border border-gray-800 py-3 px-6 rounded-lg">
             <h3 class="m-0 text-white font-bold group-hover:text-black">My Projects</h3>
           </button>
         </a>
         <a class="w-full" href="#contact">
           <button
           type="submit"
-          class="w-full bg-black group hover:bg-white border border-gray-400 py-3 px-6 rounded-lg">
+          class="w-full bg-black group hover:bg-white border border-gray-800 py-3 px-6 rounded-lg">
           <h3 class="m-0 text-white font-bold group-hover:text-black">Contact Me</h3>
         </button>
         </a> 
@@ -86,9 +86,10 @@ const timelineItems = [
     </div>
     <!-- <h1 data-nosnippet class="mb-8 mt-8 font-bold">Tools I use</h1>
     <LogoCarousel /> -->
-    <h1 data-nosnippet class="mb-0 mt-8 font-bold">History</h1>
+    <h1 data-nosnippet class="text-6xl text-center mb-0 mt-8 font-extrabold">History</h1>
     <Timeline items={timelineItems} />
-    <h1 id="contact" class="mb-12 mt-8 font-bold">Contact</h1>
+    <h1 id="contact" class="text-5xl text-center mb-2 mt-8 font-extrabold">Contact</h1>
+    <p class="text-center mb-12 text-xl">Ready to bring your idea to life? Let's talk.</p>
     <Footer />
 
 </div>

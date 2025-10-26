@@ -89,16 +89,21 @@
   </script>
   
   <main class="">
-    <div class="max-w-4xl mx-auto space-y-8">
-      <h1 class="font-bold text-4xl text-white mb-8">Featured Projects</h1>
-      <div class="space-y-8">
+    <div class="max-w-4xl mx-auto space-y-8 prose prose-invert">
+      <div>
+        <h1 class="font-extrabold text-5xl text-center text-white mb-2">Featured Projects</h1>
+        <p class="text-center mt-8 mb-12 text-xl">Some of my recent work.</p>
+      </div>
+      
+      <div class="space-y-12">
         {#each projects as project}
           <ProjectCard {project} />
         {/each}
       </div>
       
       <div class="max-w-screen-sm mx-auto prose prose-invert pt-20">
-        <h1 class="mb-12 mt-8 font-bold">Contact</h1>
+        <h1 id="contact" class="text-5xl text-center mb-2 mt-8 font-extrabold">Contact</h1>
+        <p class="text-center mb-12 text-xl">Ready to bring your idea to life? Let's talk.</p>
         <Footer />
       </div>
     </div>

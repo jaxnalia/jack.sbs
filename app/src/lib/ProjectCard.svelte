@@ -31,15 +31,15 @@ const externalLinkIcon = `<svg class="w-5 h-5 ml-2 inline text-white" viewBox="0
     <div class="absolute inset-0 bg-cover bg-center transition-transform duration-300 group-hover:scale-105" style="background-image: url({project.image})"></div>
     <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/95 to-transparent h-full md:h-2/3 lg:h-2/5">
       <div class="p-6 h-full flex flex-col justify-end">
-        <div class="flex items-center mb-2">
-          <h2 class="text-2xl font-bold text-white group-hover:underline inline-flex items-center">
+        <div class="flex items-center">
+          <p class="mt-0 mb-2 text-2xl font-bold text-white group-hover:underline inline-flex items-center">
             {project.title}
             {@html externalLinkIcon}
-          </h2>
+          </p>
         </div>
-        <p class=" text-gray-200 mb-4">{project.description}</p>
+        <p class=" text-gray-200 mb-2 mt-0">{project.description}</p>
         <div class="flex flex-wrap gap-2 items-center">
-          <span class="text-sm text-gray-300 mr-2 max-sm:hidden">Made with:</span>
+          <span class="text-gray-200 max-sm:hidden max">Made with:</span>
           {#each project.technologies as tech}
             <div class="flex items-center gap-1 bg-white bg-opacity-10 backdrop-blur-sm px-2 py-1 rounded">
               <span class=" w-4 h-4 text-center">{@html techLogos[tech.name]}</span>
